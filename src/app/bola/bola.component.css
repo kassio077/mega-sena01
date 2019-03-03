@@ -1,0 +1,16 @@
+input {
+    background-color: transparent;
+    color: darkgreen;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    width:75px;
+    height:75px ;
+    
+}
+
+.input_background_color {
+    background-color:white;
+
+}
+

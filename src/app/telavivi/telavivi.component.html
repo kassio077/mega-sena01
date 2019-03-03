@@ -1,0 +1,32 @@
+
+<body style="background-color:transparent; margin-left:10px; margin-right:10px">
+
+  
+    
+  
+
+  <h2 style="color: darkblue">Bolas Sorteadas:</h2>
+  
+  <div align='center' style="background-color:mediumseagreen;"> 
+     
+    <app-bola [input_background_color]="input_background_color" *ngFor='let numero of numeros_sorteados' [bola_sorteada]=numero></app-bola>
+    
+  </div>
+
+  <div id='botao_sortear'>
+
+    <button style='margin-left:50%; margin-top: 15px;' class='but btn-success' (click)='sortear()'>sortear</button>
+   
+  </div>
+
+  <a type='url' style='margin-top: 15px;' href='file://'>ganhadores!</a>
+
+  <ul>
+      <li *ngFor= "let estado of estados">
+          {{estado}}
+      </li>
+  </ul>
+
+</body>
+
+
